@@ -8,7 +8,16 @@ https://adb-23451234.azuredatabricks.net
 CONTROL PLANE                                                        DATA PLANE
 
 Control Plane manages all your backend services, if we talk about services whatever services provided by databricks that all can be managed by control plane
-ex: notebooks,
+ex: notebooks,webapps,clusterconfig,job information
 Data Plane is a place where your data is being processed.
-DATA plane lies with customer cloud account
+ex: client data 
+DATA plane lies with customer cloud account and Control plane lies with databricks cloud account 
 EACH OF THEM HAVING DIFF ROLES
+
+Roles offered by databricks
+-------------------------------
+
+1.Account administrator --> can create workspace/notebooks/cluster
+2.Metastore administrator --> can create metastores/
+3.Workspace administrator --> create objects/catalogs
+4.Owner --> the one who can create a table/schema
