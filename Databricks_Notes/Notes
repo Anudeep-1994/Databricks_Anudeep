@@ -1,0 +1,14 @@
+ Databricks account can have mutliple workspaces
+ FOR EXAMPLE you can create a workspace for DEV,UAT,PROD
+AT account level we can create METASTORES AND assign these metastores to diff workspaces along with adding users/group/ service principals.
+whenever you create a workspace a new id will be created to for that workspace.
+https://adb-23451234.azuredatabricks.net
+
+                                HIGH LEVEL ARCHITECTUR
+CONTROL PLANE                                                        DATA PLANE
+
+Control Plane manages all your backend services, if we talk about services whatever services provided by databricks that all can be managed by control plane
+ex: notebooks,
+Data Plane is a place where your data is being processed.
+DATA plane lies with customer cloud account
+EACH OF THEM HAVING DIFF ROLES
