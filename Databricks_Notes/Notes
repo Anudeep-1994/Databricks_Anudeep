@@ -21,3 +21,12 @@ Roles offered by databricks
 2.Metastore administrator --> can create metastores/
 3.Workspace administrator --> create objects/catalogs
 4.Owner --> the one who can create a table/schema
+
+TO Create AZURE DATA BRICKS WORK SPACE
+-----------------------------------------
+1. We need to have pay-as-go azure account
+2.create a resource group
+3. under that resource group create all the necessary resources
+4. Create Virtual Networks --> under the resource group u created.
+5. Create AZURE Databricks workspace  --> select the resource grp
+6. add the virtual networks in setting up the workspace 
