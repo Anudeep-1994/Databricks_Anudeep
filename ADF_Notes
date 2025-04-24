@@ -1,2 +1,24 @@
 Linked Services:
 ----------------
+Links your data store or external compute resource to Data Factory, It stores the connection information to the external resource.
+it supports 100+ linked services.
+
+Dataset:
+-------------
+Datafactory objects that points to a data linked service
+Meatadata about the actual data
+Describes for example data type,location and name of the data.
+
+EX: A file has stored in Azure Blob Storage like specifying the file info
+ like --> container_name : data-dump
+           Path: export/movies_csv
+           File_Type: csv
+           Separator: comma
+
+Activity:
+-----------
+
+Data Movement
+Data Transformation
+Control Activities 
+
